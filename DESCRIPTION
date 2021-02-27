@@ -1,18 +1,27 @@
 Package: ansperf
-Title: What the Package Does (One Line, Title Case)
+Title: Operational Performance Analysis of Air Transportation / Air Navigation with R
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Rainer",
+           family = "Koelle",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
+           email = "rainer.koelle@eurocontrol.int",
+           comment = c(ORCID = "0000-0003-2810-1404"))
+Description: The {ansperf} package supports the operational performance analysis
+    of air transportation / air navigation. It is based on the performance indicators
+    of ICAO's Global Air Navigation Plan and conventions made by the international  
+    benchmarking community.
+    Interested decision-makers, practitioners, and researchers are encouraged to 
+    reuse and augment the functions and provide feedback.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 URL: https://github.com/rainer-rq-koelle/ansperf
 BugReports: https://github.com/rainer-rq-koelle/ansperf/issues
+Imports: 
+    magrittr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
